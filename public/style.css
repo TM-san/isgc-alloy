@@ -74,20 +74,20 @@ body{
 	margin:0 0 10px 0;
 	font-weight:bold;
 }
-#url1{
+#url{
         word-break:break-all;	
 }
 .wrapper{
 	word-break:break-all;	
 }
-.wrapper .container .form input[type="text"]{
+.wrapper .container .form input[id="input"]{
         font-size:1.0em;
 	outline: 0;
 	-webkit-appearance: none;
         border: 0px solid #ffffff;
 	font-family:"Hiragino Mincho ProN"
 }
-.wrapper .container .form input[type="text"]:focus{
+.wrapper .container .form input[id="input"]:focus{
         border-color: #ffffff;
 	font-family:"Hiragino Mincho ProN"
 	font-size:1.0em;
