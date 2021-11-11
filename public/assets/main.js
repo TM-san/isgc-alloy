@@ -1,4 +1,4 @@
-var input = document.querySelector('#url');
+var input = document.querySelector('#input');
 
 input.addEventListener('keyup', (key) => {
     if (key.keyCode == 13) { 
